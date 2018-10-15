@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="right"
+    android:padding="5dp">
+
+
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:ellipsize="none"
+            android:textDirection="ltr"
+            android:id="@+id/maincalculator"
+            android:textColor="#0b0b0b"
+            android:textSize="30sp"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/menu"
+            android:gravity="right"
+            android:paddingLeft="10dp"
+            android:textAllCaps="false"
+            android:singleLine="true"/>
+       <ImageButton
+           android:layout_width="wrap_content"
+           android:id="@+id/menu"
+           android:layout_height="wrap_content"
+           android:background="@color/white"
+           android:src="@drawable/ic_menu_black_24dp"
+           android:layout_alignParentLeft="true"
+           android:onClick="menu"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/actualcalculator"
+        android:textColor="#0e0e0e"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="0"
+        android:textSize="16sp" />
+</LinearLayout>

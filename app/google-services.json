@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "230285995540",
+    "firebase_url": "https://djbabs-calculator.firebaseio.com",
+    "project_id": "djbabs-calculator",
+    "storage_bucket": "djbabs-calculator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230285995540:android:73ca31a213bf0705",
+        "android_client_info": {
+          "package_name": "com.example.djbabs.djbabscalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230285995540-u82bthsgk8lg3p61d1gq1raaudas5p1i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.djbabs.djbabscalculator",
+            "certificate_hash": "A75A1D074AD1774DD2C7839806BE2479145ECA0A"
+          }
+        },
+        {
+          "client_id": "230285995540-82agf6sn5ca5elj7jncruf8irj428nub.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAIrHgbP9MvHaa6KejK5xglszj1TO8_9c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230285995540-82agf6sn5ca5elj7jncruf8irj428nub.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

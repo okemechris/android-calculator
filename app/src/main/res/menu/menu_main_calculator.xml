@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.djbabs.djbabscalculator.MainCalculatorActivity">
+
+    <item
+        android:id="@+id/action_converter"
+        android:orderInCategory="100"
+        android:title="@string/action_converter"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_standard"
+        android:orderInCategory="100"
+        android:title="@string/action_standard"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_scientific"
+        android:orderInCategory="100"
+        android:title="@string/action_scientific"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="100"
+        android:title="@string/action_exit"
+        app:showAsAction="never" />
+</menu>
